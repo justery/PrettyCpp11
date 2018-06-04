@@ -1,0 +1,8 @@
+# exclude sdf files
+*.sdf
+
+#exclude temp dir
+x64/
+Debug/
+Release/
+
