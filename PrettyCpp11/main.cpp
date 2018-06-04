@@ -5,6 +5,7 @@
 bool ready;
 std::mutex mtx;
 
+
 int main()
 {
 	std::thread t1([]{
