@@ -8,7 +8,7 @@ public:
     
 
     ~ThreadGuard(){
-        if (t.joinable())
+        if (t.joinable()) // It's necessary, as well as calling detach.
                 t.join();
     }
 
