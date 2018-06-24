@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadGuard", "ThreadGuard\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScopedThread", "ScopedThread\ScopedThread.vcxproj", "{04709AF5-73CC-4E79-B3AD-62DE28F03EA6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ratio", "Ratio\Ratio.vcxproj", "{CA2B39EB-E4C5-455C-B43A-06F0DC96AFA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{04709AF5-73CC-4E79-B3AD-62DE28F03EA6}.Release|x64.Build.0 = Release|x64
 		{04709AF5-73CC-4E79-B3AD-62DE28F03EA6}.Release|x86.ActiveCfg = Release|Win32
 		{04709AF5-73CC-4E79-B3AD-62DE28F03EA6}.Release|x86.Build.0 = Release|Win32
+		{CA2B39EB-E4C5-455C-B43A-06F0DC96AFA0}.Debug|x64.ActiveCfg = Debug|x64
+		{CA2B39EB-E4C5-455C-B43A-06F0DC96AFA0}.Debug|x64.Build.0 = Debug|x64
+		{CA2B39EB-E4C5-455C-B43A-06F0DC96AFA0}.Debug|x86.ActiveCfg = Debug|Win32
+		{CA2B39EB-E4C5-455C-B43A-06F0DC96AFA0}.Debug|x86.Build.0 = Debug|Win32
+		{CA2B39EB-E4C5-455C-B43A-06F0DC96AFA0}.Release|x64.ActiveCfg = Release|x64
+		{CA2B39EB-E4C5-455C-B43A-06F0DC96AFA0}.Release|x64.Build.0 = Release|x64
+		{CA2B39EB-E4C5-455C-B43A-06F0DC96AFA0}.Release|x86.ActiveCfg = Release|Win32
+		{CA2B39EB-E4C5-455C-B43A-06F0DC96AFA0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
