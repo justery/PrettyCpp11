@@ -1,6 +1,7 @@
 #include <ratio>
 #include <iostream>
 
+
 #pragma warning(disable:4101) // which is 'line:19, 20, 21, tf, os, sum is not used'.
 
 int main()
@@ -8,6 +9,7 @@ int main()
 	using ThreeFifths = std::ratio<3, 5>;
 	using OneSecond = std::ratio<1, 2>;
 	bool usingTypeRatherThanObject = true;
+
 	if (usingTypeRatherThanObject)
 	{
 		using sum = std::ratio_add<ThreeFifths, OneSecond>;
@@ -23,3 +25,4 @@ int main()
 	
 	return 0;
 }
+
