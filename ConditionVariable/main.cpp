@@ -2,7 +2,7 @@
 #include <iostream>
 
 
-bool ready;
+bool ready = false;
 std::mutex mtx;
 std::condition_variable cv;
 
@@ -26,3 +26,4 @@ int main()
 	t2.join();
 	return 0;
 }
+
